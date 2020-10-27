@@ -22,7 +22,7 @@ max-pooling is done on every convolution layer in this case 5 layers
 ![Neural Network](./output/nn.svg "NN")
 
 **Data parameter** 
-images dimensions are $64 \multiply 64$
+images dimensions are 64*64
 
 ###  Environment Dependencies
 1. Tensorflow 1.3
