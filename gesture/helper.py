@@ -116,7 +116,7 @@ def load_train(path, img_size, classes):
     return images, labels, img_names, cls
 
 
-def read_train(path, img_size, cls, val_size):
+def read_data(path, img_size, cls, val_size):
     """
     read the training dataset and validation set
     :param path: directory of training dataset
