@@ -11,17 +11,23 @@ Detect hand gesture using webcam. Design neural network (Convolution Neural Netw
 ├── **gesture**:- contains all the scripts<br />
 &emsp;&emsp;├── **builder.py**:- create custom image dataset using webcam<br />
 &emsp;&emsp;├── **helper.py**:-  load and read the dataset for training<br />
-&emsp;&emsp;├── **train.py**:-  model dataset on the  neural network (CNN) <br />
+&emsp;&emsp;├── **train.py**:-  train & validate the model on the  train dataset <br />
+&emsp;&emsp;├── **evaluate.py**:- test/evaluate the model on the unknown/test dataset<br />
 ├── **model**:- contains the trained model <br />
-├── **output**: - contains images.
+├── **output**:- contains images.
 
-### Working
+### Models Overview
+Its is a 5 layers convolution neural network with 2 fully connected network.
+max-pooling is done on every convolution layer in this case 5 layers
 ![Neural Network](./output/nn.svg "NN")
 
+**Data parameter** 
+images dimensions are $64 \multiply 64$
+
 ###  Environment Dependencies
-
-
-
+1. Tensorflow 1.3
+2. Numpy
+3. OpenCV
 
 ### Resources
 
