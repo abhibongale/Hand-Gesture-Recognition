@@ -8,7 +8,8 @@ Detect hand gesture using webcam. Design neural network (Convolution Neural Netw
 ### Project Structure 
 .<br>
 ├── **data**:- contains training data<br>
-├── **gesture**:- contains all the scripts<br />
+├── **gesture**:- contains all the scripts <br />
+
 &emspg;&emsp;├── **builder.py**:- create custom image dataset using webcam<br />
 &emsp;&emsp;├── **helper.py**:-  load and read the dataset for training<br />
 &emsp;&emsp;├── **model.py**:-  train & validate the model on the  train dataset <br />
