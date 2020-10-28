@@ -1,5 +1,5 @@
 """
-train.py is used to train the Convolution Neural Network on dataset.
+model.py is used to train the Convolution Neural Network on dataset.
 """
 from .helper import read_data
 import tensorflow as tf
